@@ -8,6 +8,7 @@ html {
    font-family: "Calistoga", serif;
    font-weight: 400;
    font-style: normal;
+   scroll-behavior: smooth ;
    transition:transform (smooth);
    -webkit-transition:transform (smooth);
    -moz-transition:transform (smooth);
@@ -19,7 +20,7 @@ html {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-   scroll:smooth;
+  scroll-behavior: smooth ;
 }
 
 .navbar {
@@ -43,7 +44,7 @@ html {
   margin-left: auto;
 }
 
-/* Home Section */
+
 #home {
   text-align: center;
   padding: 100px 0;
@@ -70,7 +71,6 @@ html {
   margin: 0 auto;
 }
 
-/* Skill Section */
 #Skill {
   background-color: rgb(255, 255, 255);
   padding: 50px 0;
@@ -89,7 +89,7 @@ html {
   font-size: 1.2rem;
   line-height: 1.6;
 }
-/* Project Section Styles */
+
 #Projects {
   background-color: #ffffff;
   padding: 50px 0;
