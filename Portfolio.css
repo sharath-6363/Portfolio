@@ -24,6 +24,8 @@ html {
 .navbar {
   background-color: rgb(209, 250, 229);
   padding: 10px 0;
+   display:flex;
+   gap:20px
 }
 
 .navbar-brand {
