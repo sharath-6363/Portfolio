@@ -1,5 +1,6 @@
 body,
 html {
+<<<<<<< HEAD
     margin: 0;
     padding: 0;
     width: 100%;
@@ -17,6 +18,35 @@ html {
 .navbar {
     background-color: rgb(209, 250, 229);
     padding: 10px 0;
+=======
+   margin: 0;
+   padding: 0;
+   font-family: 'Roboto', sans-serif;
+   background-color: rgb(209, 250, 229);
+   font-family: "Calistoga", serif;
+   font-weight: 400;
+   font-style: normal;
+   scroll-behavior: smooth ;
+   transition:transform (smooth);
+   -webkit-transition:transform (smooth);
+   -moz-transition:transform (smooth);
+   -ms-transition:transform (smooth);
+   -o-transition:transform (smooth);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  scroll-behavior: smooth ;
+}
+
+.navbar {
+  background-color: rgb(209, 250, 229);
+  padding: 10px 0;
+   display:flex;
+   gap:20px
+>>>>>>> 6087b09b21b10cc5317f5eab0fbb90fc3c104c4e
 }
 
 .navbar-brand {
@@ -29,6 +59,14 @@ html {
     color: #000000 !important;
 }
 
+<<<<<<< HEAD
+=======
+.navbar-nav {
+  margin-left: auto;
+}
+
+
+>>>>>>> 6087b09b21b10cc5317f5eab0fbb90fc3c104c4e
 #home {
     text-align: center;
     padding: 100px 0;
@@ -60,6 +98,23 @@ html {
     padding: 50px 0;
 }
 
+<<<<<<< HEAD
+=======
+.skill-item {
+  margin-bottom: 30px;
+}
+
+.skill-item h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.skill-item p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+>>>>>>> 6087b09b21b10cc5317f5eab0fbb90fc3c104c4e
 #Projects {
     background-color: #ffffff;
     padding: 50px 0;
