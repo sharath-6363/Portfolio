@@ -1,190 +1,209 @@
-
 body,
 html {
-   margin: 0;
-   padding: 0;
-   font-family: 'Roboto', sans-serif;
-   background-color: rgb(209, 250, 229);
-   font-family: "Calistoga", serif;
-   font-weight: 400;
-   font-style: normal;
-   transition:transform (smooth);
-   -webkit-transition:transform (smooth);
-   -moz-transition:transform (smooth);
-   -ms-transition:transform (smooth);
-   -o-transition:transform (smooth);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(209, 250, 229);
+    scroll-behavior: smooth; 
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .navbar {
-  background-color: rgb(209, 250, 229);
-  padding: 10px 0;
+    background-color: rgb(209, 250, 229);
+    padding: 10px 0;
 }
 
 .navbar-brand {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #000000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
 }
 
 .navbar-nav .nav-link {
-  color: #000000 !important;
+    color: #000000 !important;
 }
 
-.navbar-nav {
-  margin-left: auto;
-}
-
-/* Home Section */
 #home {
-  text-align: center;
-  padding: 100px 0;
+    text-align: center;
+    padding: 100px 0;
 }
 
 .text-star {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .text-star h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
+    font-size: 3rem;
+    margin-bottom: 20px;
 }
 
 .text-star h3 {
-  font-size: 1.5rem;
-  margin-bottom: 30px;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
 }
 
 .images {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
-/* Skill Section */
 #Skill {
-  background-color: rgb(255, 255, 255);
-  padding: 50px 0;
+    background-color: rgb(255, 255, 255);
+    padding: 50px 0;
 }
 
-.skill-item {
-  margin-bottom: 30px;
-}
-
-.skill-item h1 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-}
-
-.skill-item p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-}
-/* Project Section Styles */
 #Projects {
-  background-color: #ffffff;
-  padding: 50px 0;
+    background-color: #ffffff;
+    padding: 50px 0;
 }
 
 #Projects .container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-#Projects h2 {
-  margin-bottom: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 #Projects .Linestyle {
-  border-top: 2px solid rgb(1, 255, 192);
-  margin: 0;
+    border-top: 2px solid rgb(1, 255, 192);
+    margin: 0;
 }
 
 #Projects .card {
-  margin-bottom: 30px;
-  border: none;
-  transition: transform 0.3s ease-in-out;
+    margin-bottom: 30px;
+    border: none;
+    transition: transform 0.3s ease-in-out;
 }
 
 #Projects .cardanime:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 #Projects .card-img-top {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 #Projects .card-body {
-  text-align: center;
+    text-align: center;
 }
 
 #Projects .card-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 #Projects .card-text {
-  font-size: 1rem;
-  color: #555;
-  margin-bottom: 15px;
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
 }
 
 #Projects a {
-  color: #17a2b8;
-  text-decoration: none;
-  font-weight: bold;
+    color: #17a2b8;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 #Projects a:hover {
-  color: #138496;
+    color: #138496;
 }
-
 
 /* About Section */
 #About {
-  background-color: #ffffff;
-  padding: 50px 0;
+    background-color: #ffffff;
+    padding: 50px 0;
 }
 
 #About p {
-  font-size: 1.2rem;
-  line-height: 1.6;
+    font-size: 1.2rem;
+    line-height: 1.6;
 }
 
-/* Contact Section */
 #Contact {
-  background-color: #ffffff;
-  padding: 50px 0;
+    background-color: #ffffff;
+    padding: 50px 0;
 }
 
 #Contact .form-group {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
-
 #Contact .btn-primary {
-  background-color: #17a2b8;
-  border-color: #17a2b8;
-  padding: 10px 30px;
-  font-size: 1.2rem;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    padding: 10px 30px;
+    font-size: 1.2rem;
 }
 
 #Contact .btn-primary:hover {
-  background-color: #138496;
-  border-color: #138496;
+    background-color: #138496;
+    border-color: #138496;
 }
 
-/* Line style */
 .Linestyle {
-  border-top: 2px solid rgb(1, 255, 192);
-  margin: 0;
+    border-top: 2px solid rgb(1, 255, 192);
+    margin: 0;
+}
+
+.navbar-nav .nav-item {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.navbar-nav {
+    display: flex;
+}
+
+.navbar-nav .nav-item {
+    width: 100%;
+}
+
+.navbar-nav .nav-item a {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+@media (max-width: 390px) {
+    .navbar-collapse {
+        display: block !important;
+    }
+
+    .navbar-nav {
+        flex-direction: row !important;
+    }
+
+    .navbar-nav .nav-item {
+        margin-right: 10px !important;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 0.5rem 0.75rem !important;
+    }
+}
+
+@media (min-width: 391px) and (max-width: 576px) {
+    .navbar-collapse {
+        display: block !important;
+    }
+
+    .navbar-nav {
+        flex-direction: row !important;
+    }
+
+    .navbar-nav .nav-item {
+        margin-right: 10px !important;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 0.5rem 0.75rem !important;
+    }
 }
