@@ -245,7 +245,7 @@ html {
     }
 }
 
-@media (max-width: 390px) and (max-width: 576px) {
+@media (min-width: 391px) and (max-width: 576px) {
     .navbar-collapse {
         display: block !important;
     }
