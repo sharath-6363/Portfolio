@@ -250,6 +250,12 @@ html {
         display: block !important;
     }
 
+    .skewbox{
+        display:block;
+        width:100%;
+        height:auto;
+    }
+
     .navbar-nav {
         flex-direction: row !important;
     }
