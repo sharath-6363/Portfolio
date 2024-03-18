@@ -251,7 +251,6 @@ html {
     }
 
     .skewbox{
-        display:block !important;
         width:100vh !important;
         height:auto !important;
     }
