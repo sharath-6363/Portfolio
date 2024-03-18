@@ -251,9 +251,9 @@ html {
     }
 
     .skewbox{
-        display:block;
-        width:100%;
-        height:auto;
+        display:block !important;
+        width:100% !important;
+        height:auto !important;
     }
 
     .navbar-nav {
