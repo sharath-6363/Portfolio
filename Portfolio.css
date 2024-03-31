@@ -2,7 +2,7 @@ body,
 html {
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100vh;
     font-family: 'Roboto', sans-serif;
     background-color: rgb(209, 250, 229);
     scroll-behavior: smooth;
@@ -215,6 +215,11 @@ html {
 @media (min-width: 391px) and (max-width: 576px) {
     .navbar-collapse {
         display: block !important;
+    }
+
+    .skewbox{
+        width:100vh !important;
+        height:auto !important;
     }
 
     .navbar-nav {
