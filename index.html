@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="Portfolio.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-emerald py-1">
-        <div class="container">
-            <h1 class="navbar-brand">I'm <span style="color:rgb(25, 150, 85);">Sharath</span></h1>
+        <div class="container ">
+            <h1 class="navbar-brand animated-text ">I'm <span style="color:rgb(25, 150, 85);">Sharath</span></h1>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ">
                     <li class="nav-item"><a class="nav-link text-uppercase" href="#home">Home</a></li>
@@ -22,29 +24,76 @@
             </div>
         </div>
     </nav>
-    
+
     <div id="home" class="py-5 text-star">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 text-left">
-                        <h1 class="text-dark px-5">I'm <b>Sharath</b></h1>
-                        <h3 class="text-secondary px-5">Full Stack Developer</h3>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-left animated-text">
+                    <div class="textaline">
+                        <h1 class="text-dark px-5">Hello I'm <b>Sharath </b></h1>
+                        <p class="px-5">And I'am</p>
                     </div>
-                    <div class="col-md-6">
-                        <img class="images" src="images-removebg-preview-removebg-preview.png" alt="image">
-                    </div>
+                    <h3 class="text-secondary px-5">Full Stack Developer</h3>
+                </div>
+                <div class="col-md-6">
+                    <img class="images" src="images-removebg-preview-removebg-preview.png" alt="image">
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <article id="Skill" class="skewbox">
         <div class="container">
             <div class="content">
                 <h2 class="text-secondary font-weight-bold">Tech Skills</h2>
                 <hr class="w-100 Linestyle" style="color: rgb(1, 255, 192);">
-                <div class="card  shadow mt-4 w-75 p-2">
-                    <h1>HTML</h1>
-                    <p>Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.</p>
+                <div class="skills">
+                    <div class="skills1">
+                        <li>
+                            <h3>HTML</h3>
+                            <span class="bar"><span class="htmll"></span></span>
+                        </li>
+                        <li>
+                            <h3>CSS</h3>
+                            <span class="bar"><span class="CSS"></span></span>
+                        </li>
+                        <li>
+                            <h3>JS</h3>
+                            <span class="bar"><span class="JS"></span></span>
+                        </li>
+                        <li>
+                            <h3>Bootstrap</h3>
+                            <span class="bar"><span class="Bootstrap"></span></span>
+                        </li>
+                   
+                   
+                        <li>
+                            <h3>Python</h3>
+                            <span class="bar"><span class="Python"></span></span>
+                        </li>
+                    </div>
+                    <div class="skills2">
+                        <li>
+                            <h3>JAVA</h3>
+                            <span class="bar"><span class="JAVA"></span></span>
+                        </li>
+                        <li>
+                            <h3>MY SQL & Mongo DB</h3>
+                            <span class="bar"><span class="Mongo"></span></span>
+                        </li>
+                        <li>
+                            <h3>React JS</h3>
+                            <span class="bar"><span class="React"></span></span>
+                        </li>
+                        <li>
+                            <h3>Full Stack Development</h3>
+                            <span class="bar"><span class="FSD"></span></span>
+                        </li>
+                        <li>
+                            <h3></h3>
+                            <span class="bar"><span class="FSD"></span></span>
+                        </li>
+                    </div>
 
                 </div>
             </div>
@@ -62,7 +111,8 @@
                             <img src="Screenshot (103).png" class="card-img-top w-100" alt="Project 1">
                         </div>
                         <div class="card-body">
-                            <a href="https://65e57b21d8f19438dfa76881--lustrous-cuchufli-4b6837.netlify.app/" target="_blank" class="btn btn-success w-100 text-dark"> ProductCat</a>
+                            <a href="https://65e57b21d8f19438dfa76881--lustrous-cuchufli-4b6837.netlify.app/"
+                                target="_blank" class="btn btn-success w-100 text-dark"> ProductCat</a>
                         </div>
                     </div>
                 </div>
@@ -83,7 +133,7 @@
         <div class="container">
             <h2 class=" mb-4 text-secondary">About Me</h2>
             <hr class="w-100 Linestyle" style="color: rgb(1, 255, 192);">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc non lacinia blandit, quam 
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc non lacinia blandit, quam
                 lorem mollis arcu, nec fermentum neque lorem nec justo.</p>
         </div>
     </section>
@@ -105,22 +155,23 @@
                         </div>
                         <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                            <textarea class="form-control" id="message" rows="3"
+                                placeholder="Enter your message"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
-                 </div>
+                </div>
             </div>
         </div>
     </section>
-    <footer  class="w-100 bg-emerald text-center text-white py-3 bg-dark ">
-        <a href="#home" class="text-white">Home</a> | 
-        <a href="#About" class="text-white">About</a> | 
-        <a href="#Skill" class="text-white">Skill</a> | 
-        <a href="#Projects" class="text-white">Projects</a> | 
+    <footer class="w-100 bg-emerald text-center text-white py-3 bg-dark ">
+        <a href="#home" class="text-white">Home</a> |
+        <a href="#About" class="text-white">About</a> |
+        <a href="#Skill" class="text-white">Skill</a> |
+        <a href="#Projects" class="text-white">Projects</a> |
         <a href="#Contact" class="text-white">Contact</a><br>
-        
-        =================>SHARATH H N <=================
+
+        <p>=================>SHARATH H N <=================< /p>
     </footer>
 
 
