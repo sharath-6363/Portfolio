@@ -236,11 +236,7 @@ html {
         padding: 0.5rem 0.55rem !important;
     }
 }
-@media (min-width: 412px) and (max-width: 915px) {
-    .homee{
-        whidth:100vh;
-    }
-}
+
 
 .skills1 {
     width: 500px;
