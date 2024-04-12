@@ -7,7 +7,7 @@ html {
     scroll-behavior: smooth;
 }
 .homee{
-    background-color:rgb(209,250,229);
+    background-color:black;
 }
 .container {
     max-width: 1200px;
@@ -16,18 +16,18 @@ html {
 }
 
 .navbar {
-    background-color: rgb(209, 250, 229);
+    background-color:black;
     padding: 10px 0;
 }
 
 .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #000000;
+    color: #fff;
 }
 
 .navbar-nav .nav-link {
-    color: #000000 !important;
+    color: #fff !important;
 }
 
 #home {
