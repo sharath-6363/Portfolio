@@ -7,7 +7,7 @@ html {
     scroll-behavior: smooth;
 }
 .homee{
-    background-color:black;
+    background-color:#00203FFF;
 }
 .container {
     max-width: 1200px;
@@ -16,7 +16,7 @@ html {
 }
 
 .navbar {
-    background-color:black;
+    background-color:#00203FFF;
     padding: 10px 0;
 }
 
