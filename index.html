@@ -7,8 +7,13 @@
     <title>Sharath's Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="Portfolio.css">
-</head>
+       <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+        <script src="script.js"></script>
 
+</head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-emerald py-1">
         <div class="container ">
@@ -42,64 +47,98 @@
         </div>
     </div>
     </div>
-    <article id="Skill" class="skewbox">
+    
+    <section id="About" class="py-5 skewbox">
         <div class="container">
-            <div class="content">
-                <h2 class="text-secondary font-weight-bold">Tech Skills</h2>
-                <hr class="w-100 Linestyle" style="color: rgb(1, 255, 192);">
-                <div class="skills">
-                    <div class="skills1">
-                        <li>
-                            <h3>HTML</h3>
-                            <span class="bar"><span class="htmll"></span></span>
-                        </li>
-                        <li>
-                            <h3>CSS</h3>
-                            <span class="bar"><span class="CSS"></span></span>
-                        </li>
-                        <li>
-                            <h3>JS</h3>
-                            <span class="bar"><span class="JS"></span></span>
-                        </li>
-                        <li>
-                            <h3>Bootstrap</h3>
-                            <span class="bar"><span class="Bootstrap"></span></span>
-                        </li>
-                   
-                   
-                        <li>
-                            <h3>Python</h3>
-                            <span class="bar"><span class="Python"></span></span>
-                        </li>
-                    </div>
-                    <div class="skills2">
-                        <li>
-                            <h3>JAVA</h3>
-                            <span class="bar"><span class="JAVA"></span></span>
-                        </li>
-                        <li>
-                            <h3>MY SQL & Mongo DB</h3>
-                            <span class="bar"><span class="Mongo"></span></span>
-                        </li>
-                        <li>
-                            <h3>React JS</h3>
-                            <span class="bar"><span class="React"></span></span>
-                        </li>
-                        <li>
-                            <h3>Full Stack Development</h3>
-                            <span class="bar"><span class="FSD"></span></span>
-                        </li>
-                        <li>
-                            <h3></h3>
-                            <span class=""><span class=""></span></span>
-                        </li>
-                    </div>
-
-                </div>
-            </div>
-            <div class="imagebox"></div>
+            <h2 class=" mb-4 text-secondary">About Me</h2>
+            <hr class="w-100 Linestyle" style="color: rgb(1, 255, 192);">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc non lacinia blandit, quam
+                lorem mollis arcu, nec fermentum neque lorem nec justo.</p>
         </div>
-    </article>
+    </section>
+    <section id="skills" class="skills">
+      <div class="main-text">
+        <span class="hedname">Technical and professional</span>
+        <h2>My Skill</h2>
+      </div>
+      <div class="skill-main">
+        <div class="skill-left">
+          <h3>Tech Skills</h3>
+          <div class="skill-bar">
+            <div class="info">
+              <p>HTML , CSS</p>
+              <p>78%</p>
+            </div>
+            <div class="bar">
+              <span class="html"></span>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="info">
+              <p>JS</p>
+              <p>60%</p>
+            </div>
+            <div class="bar">
+              <span class="js"></span>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="info">
+              <p>React</p>
+              <p>83%</p>
+            </div>
+            <div class="bar">
+              <span class="react"></span>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="info">
+              <p>Full Stak Development</p>
+              <p>83%</p>
+            </div>
+            <div class="bar">
+              <span class="fsd"></span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-right">
+          <h3>Professional Skills</h3>
+          <div class="professional">
+            <div class="box">
+              <div class="circle" data-dots="80" data-percent="85"></div>
+              <div class="text">
+                <big>85%</big>
+                <small>Team Work</small>
+              </div>
+            </div>
+            <div class="box">
+              <div class="circle" data-dots="80" data-percent="90"></div>
+              <div class="text">
+                <big>90%</big>
+                <small>Creativity </small>
+              </div>
+            </div>
+            <div class="box">
+              <div class="circle" data-dots="80" data-percent="80"></div>
+              <div class="text">
+                <big>80%</big>
+                <small>Project Management</small> 
+              </div>
+            </div>
+            <div class="box">
+              <div class="circle" data-dots="80" data-percent="60"></div>
+              <div class="text">
+                <big>60%</big>
+                <small>Communication</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="Projects" class="bg-white py-5 skewbox">
         <div class="container">
             <h2 class="mb-4 text-secondary font-weight-bold">Projects</h2>
@@ -129,14 +168,6 @@
         </div>
     </section>
 
-    <section id="About" class="py-5 skewbox">
-        <div class="container">
-            <h2 class=" mb-4 text-secondary">About Me</h2>
-            <hr class="w-100 Linestyle" style="color: rgb(1, 255, 192);">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc non lacinia blandit, quam
-                lorem mollis arcu, nec fermentum neque lorem nec justo.</p>
-        </div>
-    </section>
 
     <section id="Contact" class="card text-white py-5 skewbox">
         <div class="container ">
