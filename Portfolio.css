@@ -5,6 +5,7 @@ html {
     width: 100%;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
+    background-color:#00203FFF;
 }
 .homee{
     background-color:#00203FFF;
@@ -63,7 +64,7 @@ html {
 } */
 
 #Projects {
-    background-color: #ffffff;
+    background-color: #00203FFF;
     padding: 50px 0;
 }
 
@@ -90,6 +91,7 @@ html {
 
 #Projects .card-img-top {
     width: 100%;
+    object-fit: cover;
     height: auto;
 }
 
@@ -120,18 +122,30 @@ html {
 }
 
 /* About Section */
-#About {
-    background-color: #ffffff;
-    padding: 50px 0;
+#about {
+  background-color: #00203FFF;
 }
 
-#About p {
-    font-size: 1.2rem;
-    line-height: 1.6;
+.Linestyle {
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
 }
+
+.skewbox {
+  padding: 20px;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.text-secondary {
+  color: #6c757d;
+}
+
 
 #Contact {
-    background-color: #ffffff;
+    background-color:#00203FFF;
     padding: 50px 0;
 }
 
@@ -237,7 +251,7 @@ html {
     }
 }
 .skills {
-  background: #081b29;
+  background:#00203FFF;
   padding: 10px;
 }
 .main-text{
@@ -480,4 +494,11 @@ html {
   .skill-main {
     grid-template-columns: 1fr;
   }
+}
+.footers{
+  position: relative;
+  top: 50%;
+}
+footer{
+  background: black;
 }
