@@ -93,6 +93,7 @@ html {
 
 .port-box {
   position: relative;
+  
   border-radius: 15px;
   overflow: hidden;
   background: #292e33;
@@ -106,6 +107,7 @@ html {
 
 .port-image {
   display: flex;
+  
   align-items: center;
   justify-content: center;
   height: 100%;
@@ -140,6 +142,7 @@ html {
 }
 .port-box:hover .port-image img{
   transform: scale(1.1);
+  
 }
 
 .port-content h3 {
@@ -212,11 +215,11 @@ html {
   }
 
   .port-content h3 {
-      font-size: 2rem; 
+      font-size: 1.5rem; 
   }
 
   .port-content p {
-      font-size: 1rem; 
+      font-size: .8rem; 
   }
 }
 
