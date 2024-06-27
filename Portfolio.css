@@ -89,11 +89,12 @@ html {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
   gap: 2rem;
+  width: 100%;
+  height: 100%;
 }
 
 .port-box {
   position: relative;
-  
   border-radius: 15px;
   overflow: hidden;
   background: #292e33;
@@ -104,23 +105,22 @@ html {
   box-shadow: 0 0 8px aqua;
 
 }
-
 .port-image {
+  object-fit: cover;
   display: flex;
-  
   align-items: center;
   justify-content: center;
   height: 100%;
   width: 100%;
-
 }
 
 .port-image img {
-  width: 100%;
+  width: 100% ;
+  object-fit: cover;
   opacity: .5s;
-  height: 100%;
-  transition: .5s;
+  transition: opacity .5s;
 }
+
 
 .port-content {
   position: absolute;
@@ -141,6 +141,7 @@ html {
 
 }
 .port-box:hover .port-image img{
+
   transform: scale(1.1);
   
 }
@@ -212,6 +213,10 @@ html {
 
   .project-gallery {
       gap: 3rem; 
+  }
+   .port-image{
+    object-fit: cover;
+    
   }
 
   .port-content h3 {
