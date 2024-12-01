@@ -646,7 +646,7 @@ button:hover{
 }
 .reacts{
   animation: recat 4s;
-
+  -webkit-animation: recat 4s;
 }
 .skill-bar .bar .fsd {
   width: 83%;
